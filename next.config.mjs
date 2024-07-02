@@ -27,6 +27,30 @@ const nextConfig = {
         source: '/(.*)',
         headers: [
           {
+            key: "Access-Control-Allow-Origin",
+            value: "https://www.andrewstill.moe",
+          },
+          {
+            key: "Access-Control-Allow-Methods",
+            value: "GET, HEAD",
+          },
+          {
+            key: "Access-Control-Allow-Headers",
+            value: "Content-Type, Authorization",
+          },
+          {
+            key: 'cross-origin-embedder-policy',
+            value: 'require-corp',
+          },
+          {
+            key: 'cross-origin-opener-policy',
+            value: 'same-origin',
+          },
+          {
+            key: 'cross-origin-resource-policy',
+            value: 'cross-origin',
+          },
+          {
             key: 'X-Content-Type-Options',
             value: 'nosniff',
           },
