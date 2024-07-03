@@ -40,15 +40,3 @@ export function middleware(request: NextRequest) {
 
   return response
 }
-
-export const config = {
-  matcher: [
-    {
-      source: '/((?!api|_next/image|favicon.ico).*)',
-      missing: [
-        { type: 'header', key: 'next-router-prefetch' },
-        { type: 'header', key: 'purpose', value: 'prefetch' },
-      ],
-    },
-  ],
-}
