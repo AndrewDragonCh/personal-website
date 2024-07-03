@@ -1,6 +1,8 @@
-"use server";
+import { headers } from "next/headers";
 
 export default async function Home() {
+  const nonce = headers().get("x-nonce");
+
   return (
     <main>
       <div className="flex flex-col justify-center items-center h-screen" >
