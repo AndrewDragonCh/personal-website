@@ -32,9 +32,6 @@ importers:
       next:
         specifier: 15.0.0-canary.51
         version: 15.0.0-canary.51(react-dom@19.0.0-rc-100dfd7dab-20240701(react@19.0.0-rc-100dfd7dab-20240701))(react@19.0.0-rc-100dfd7dab-20240701)
-      next-plausible:
-        specifier: ^3.12.0
-        version: 3.12.0(next@15.0.0-canary.51(react-dom@19.0.0-rc-100dfd7dab-20240701(react@19.0.0-rc-100dfd7dab-20240701))(react@19.0.0-rc-100dfd7dab-20240701))(react-dom@19.0.0-rc-100dfd7dab-20240701(react@19.0.0-rc-100dfd7dab-20240701))(react@19.0.0-rc-100dfd7dab-20240701)
       react:
         specifier: 19.0.0-rc-100dfd7dab-20240701
         version: 19.0.0-rc-100dfd7dab-20240701
@@ -1666,13 +1663,6 @@ packages:
 
   neo-async@2.6.2:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
-
-  next-plausible@3.12.0:
-    resolution: {integrity: sha512-SSkEqKQ6PgR8fx3sYfIAT69k2xuCUXO5ngkSS19CjxY97lAoZxsfZpYednxB4zo0mHYv87JzhPynrdBPlCBVHg==}
-    peerDependencies:
-      next: ^11.1.0 || ^12.0.0 || ^13.0.0 || ^14.0.0
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0
-      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
 
   next@15.0.0-canary.51:
     resolution: {integrity: sha512-JKmG+BTBZSqgKqCCVCZJThxktNaOHpN4/a8S/iVFQOG0ppvWrzY9ChmJpg05HgT2NRqbTXi5cyGOU9iwpkhMUg==}
@@ -4447,12 +4437,6 @@ snapshots:
   natural-compare@1.4.0: {}
 
   neo-async@2.6.2: {}
-
-  next-plausible@3.12.0(next@15.0.0-canary.51(react-dom@19.0.0-rc-100dfd7dab-20240701(react@19.0.0-rc-100dfd7dab-20240701))(react@19.0.0-rc-100dfd7dab-20240701))(react-dom@19.0.0-rc-100dfd7dab-20240701(react@19.0.0-rc-100dfd7dab-20240701))(react@19.0.0-rc-100dfd7dab-20240701):
-    dependencies:
-      next: 15.0.0-canary.51(react-dom@19.0.0-rc-100dfd7dab-20240701(react@19.0.0-rc-100dfd7dab-20240701))(react@19.0.0-rc-100dfd7dab-20240701)
-      react: 19.0.0-rc-100dfd7dab-20240701
-      react-dom: 19.0.0-rc-100dfd7dab-20240701(react@19.0.0-rc-100dfd7dab-20240701)
 
   next@15.0.0-canary.51(react-dom@19.0.0-rc-100dfd7dab-20240701(react@19.0.0-rc-100dfd7dab-20240701))(react@19.0.0-rc-100dfd7dab-20240701):
     dependencies:
