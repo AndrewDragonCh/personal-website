@@ -10,7 +10,6 @@ export const metadata: Metadata = {
   authors: [{ name: "Andrew Still" }],
   keywords: ["Resume", "Developer", "Programmer"],
   referrer: "no-referrer",
-  viewport: "width=device-width, initial-scale=1.0",
   creator: "Andrew Still",
   publisher: "Andrew Still",
   formatDetection: {

@@ -13,7 +13,7 @@ export default async function Home() {
         <p className="text-3xl mt-1">Here are some quick links</p>
         <div className="grid grid-cols-2 mt-4 place-items-center">
           <Link className="text-2xl m-2" href={"https://www.linkedin.com/in/andrew-still-yay/"} target="_blank">LinkedIn</Link>
-          <Link className="text-2xl m-2" href={"resume070224.pdf" as Route} target="_blank" rel="noopener noreferrer" locale={false}>Resume IN PROGRESS</Link>
+          <Link className="text-2xl m-2" href={"https://docs.google.com/document/d/1aBypR-b4xcuaz5yupW8g150_mv21jKCaG4k0WnqPwbg/edit?usp=sharing"} target="_blank">Resume IN PROGRESS</Link>
           <Link className="text-2xl m-2" href={"https://github.com/AndrewDragonCh"} target="_blank">GitHub</Link>
           <Link className="text-2xl m-2" href={"https://www.credly.com/badges/d4f09d4c-567e-4be3-a9b6-7242eeab0847"} target="_blank">CompTIA A+</Link>
         </div>
