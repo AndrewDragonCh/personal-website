@@ -1,6 +1,3 @@
-import remarkGfm from 'remark-gfm'
-import createMDX from '@next/mdx'
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   pageExtensions: ['ts', 'tsx', 'mdx'],
@@ -10,16 +7,6 @@ const nextConfig = {
   experimental: {
     typedRoutes: true,
     ppr: true,
-    mdxRs: true,
-  },
-  redirects: async () => {
-    return [
-      {
-        source: '/blog',
-        destination: '/',
-        permanent: true,
-      },
-    ]
   },
   async headers() {
     return [
@@ -76,11 +63,4 @@ const nextConfig = {
   }
 }
 
-const withMDX = createMDX({
-  options: {
-    remarkPlugins: [remarkGfm],
-    rehypePlugins: [],
-  },
-})
-
-export default withMDX(nextConfig)
+export default nextConfig;

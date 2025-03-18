@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  h1 {
+    @apply text-7xl leading-tight font-black;
+  }
+  h2 {
+    @apply text-[42px] leading-snug font-bold; /* 42px is inbetween text-4xl and text-5xl */
+  }
+  h3 {
+    @apply text-2xl leading-relaxed font-medium;
+  }
+  h4 {
+    @apply text-xl leading-normal font-medium;
+  }
+  h5 {
+    @apply text-lg leading-normal font-medium;
+  }
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-rgb: 255,255,255;
