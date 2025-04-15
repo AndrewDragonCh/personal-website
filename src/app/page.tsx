@@ -2,7 +2,7 @@ import { headers } from "next/headers";
 import Link from "next/link";
 
 export default async function Home() {
-  const nonce = headers().get("x-nonce") || "";
+  const nonce = (await headers()).get("x-nonce") || "";
 
   return (
     <main>

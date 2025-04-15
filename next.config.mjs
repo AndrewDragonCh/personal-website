@@ -5,6 +5,7 @@ const nextConfig = {
   reactStrictMode: true,
   experimental: {
     typedRoutes: true,
+    ppr: 'incremental',
   },
   async headers() {
     return [
