@@ -1,12 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  pageExtensions: ['ts', 'tsx', 'mdx'],
   poweredByHeader: false,
   crossOrigin: 'anonymous',
   reactStrictMode: true,
   experimental: {
     typedRoutes: true,
-    ppr: 'incremental',
   },
   async headers() {
     return [
